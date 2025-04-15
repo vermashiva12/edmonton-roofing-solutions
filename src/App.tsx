@@ -1,9 +1,17 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
+import ResidentialRoofing from "./pages/services/ResidentialRoofing";
+import CommercialRoofing from "./pages/services/CommercialRoofing";
+import RoofRepairs from "./pages/services/RoofRepairs";
+import RoofMaintenance from "./pages/services/RoofMaintenance";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -16,7 +24,13 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/services/residential-roofing" element={<ResidentialRoofing />} />
+          <Route path="/services/commercial-roofing" element={<CommercialRoofing />} />
+          <Route path="/services/roof-repairs" element={<RoofRepairs />} />
+          <Route path="/services/roof-maintenance" element={<RoofMaintenance />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
