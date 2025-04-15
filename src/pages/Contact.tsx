@@ -35,8 +35,8 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Our Office</h3>
                       <p className="text-gray-600">
-                        1234 Roofing Way<br />
-                        Edmonton, AB T5J 2R4
+                       Unit 204 5207 4Ave<br />
+                         SW Edmonton, AB T6X 2Y2
                       </p>
                     </div>
                   </div>
@@ -48,8 +48,8 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Phone</h3>
                       <p className="text-gray-600">
-                        Main: (780) 123-4567<br />
-                        Emergency: (780) 987-6543
+                        Main: (780) 729-4400
+                      
                       </p>
                     </div>
                   </div>
@@ -61,8 +61,7 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Email</h3>
                       <p className="text-gray-600">
-                        info@roofmastersedmonton.ca<br />
-                        support@roofmastersedmonton.ca
+                       roofmasters02@gmail.com
                       </p>
                     </div>
                   </div>
