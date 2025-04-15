@@ -1,5 +1,5 @@
 
-import { Shield, Clock, Tool, Award, Home, Building } from "lucide-react";
+import { Shield, Clock, Wrench, Award, Home, Building } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Hero } from "@/components/ui/hero";
@@ -44,7 +44,7 @@ const Index = () => {
                 description="Our efficient team ensures project completion within the agreed timeline without compromising quality."
               />
               <FeatureCard 
-                icon={<Tool className="h-12 w-12" />}
+                icon={<Wrench className="h-12 w-12" />}
                 title="Expert Craftmanship"
                 description="Our certified and experienced team delivers exceptional workmanship on every project."
               />
