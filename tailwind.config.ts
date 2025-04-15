@@ -66,10 +66,10 @@ export default {
           950: '#0F1144'
         },
         accent: {
-          DEFAULT: '#F97316', // Bright Orange from the color palette
-          orange: '#F97316',
-          orangeLight: '#FDBA74',
-          orangeDark: '#EA580C'
+          DEFAULT: '#0083E0', // Updated to the specified color
+          orange: '#0083E0',
+          orangeLight: '#33A1DE', // Lighter shade of the blue
+          orangeDark: '#006AB3'  // Darker shade of the blue
         }
       },
       borderRadius: {
