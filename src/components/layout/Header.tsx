@@ -75,7 +75,7 @@ const Header = () => {
             <div className="flex items-center">
               <Button className="bg-accent-orange hover:bg-accent-orangeDark text-white font-semibold">
                 <Phone className="h-4 w-4 mr-2" />
-                <span>780-123-4567</span>
+                <span>780-729-4400</span>
               </Button>
             </div>
           </div>
