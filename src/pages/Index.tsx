@@ -1,4 +1,3 @@
-
 import { Shield, Clock, Wrench, Award, Home, Building } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -23,12 +22,11 @@ const Index = () => {
           buttonLink="/contact"
         />
 
-        {/* Why Choose Us Section */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-6">
             <SectionHeading 
-              title="Why Choose Roof Masters"
-              subtitle="With over 15 years of experience serving Edmonton and surrounding areas, our team of certified professionals deliver exceptional roofing solutions."
+              title="Why Roof Masters?"
+              subtitle="Experience unparalleled roofing solutions backed by expertise, quality, and commitment to customer satisfaction."
               centered={true}
             />
             
@@ -67,7 +65,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Services Section */}
         <section className="py-16">
           <div className="container mx-auto px-6">
             <SectionHeading 
@@ -105,7 +102,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Testimonials Section */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-6">
             <SectionHeading 
