@@ -25,8 +25,8 @@ const Index = () => {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-6">
             <SectionHeading 
-              title="Why Roof Masters?"
-              subtitle="Experience unparalleled roofing solutions backed by expertise, quality, and commitment to customer satisfaction."
+              title="Unmatched Roofing Excellence"
+              subtitle="Delivering superior roofing solutions with precision, quality, and unwavering commitment to customer satisfaction in Edmonton and beyond."
               centered={true}
             />
             
