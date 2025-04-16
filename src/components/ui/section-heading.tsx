@@ -15,7 +15,11 @@ export const SectionHeading = ({
       <h2 className="font-bold mb-4">
         <span className="border-b-4 border-accent-orange pb-2">{title}</span>
       </h2>
-      {subtitle && <p className="text-lg text-gray-600 mt-4 max-w-3xl">{subtitle}</p>}
+      {subtitle && (
+        <p className={`text-lg text-gray-600 mt-4 ${centered ? "mx-auto" : ""} max-w-3xl`}>
+          {subtitle}
+        </p>
+      )}
     </div>
   );
 };
