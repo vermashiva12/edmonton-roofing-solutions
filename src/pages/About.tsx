@@ -21,7 +21,7 @@ const About = () => {
         <section className="py-16">
           <div className="container mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
+              <div className="mx-auto max-w-2xl lg:mx-0">
                 <SectionHeading 
                   title="Our Story"
                   subtitle="Dedicated to excellence in roofing since 2008"
@@ -40,9 +40,9 @@ const About = () => {
                 <img 
                   src="https://images.unsplash.com/photo-1573919810127-cef87b1dbade?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" 
                   alt="Roof Masters team" 
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg w-full h-auto"
                 />
-                <div className="absolute -bottom-8 -left-8 bg-accent-orange text-white p-4 rounded-lg shadow-lg md:w-64">
+                <div className="absolute -bottom-8 lg:-right-8 bg-accent-orange text-white p-4 rounded-lg shadow-lg md:w-64">
                   <p className="font-bold text-xl">15+ Years</p>
                   <p>Serving Edmonton & Surrounding Areas</p>
                 </div>
