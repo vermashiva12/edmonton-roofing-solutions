@@ -36,17 +36,7 @@ const About = () => {
                   Our passion for quality craftmanship, attention to detail, and commitment to customer satisfaction has earned us a reputation as Edmonton's premier roofing company.
                 </p>
               </div>
-              <div className="relative">
-                <img 
-                  src="https://images.unsplash.com/photo-1573919810127-cef87b1dbade?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" 
-                  alt="Roof Masters team" 
-                  className="rounded-lg shadow-lg w-full h-auto"
-                />
-                <div className="absolute -bottom-8 lg:-right-8 bg-accent-orange text-white p-4 rounded-lg shadow-lg md:w-64">
-                  <p className="font-bold text-xl">15+ Years</p>
-                  <p>Serving Edmonton & Surrounding Areas</p>
-                </div>
-              </div>
+             
             </div>
           </div>
         </section>
