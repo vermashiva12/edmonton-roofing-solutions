@@ -25,6 +25,7 @@ const About = () => {
                 <SectionHeading 
                   title="Our Story"
                   subtitle="Dedicated to excellence in roofing since 2008"
+                  centered={true}
                 />
                 <p className="text-gray-600 mb-6">
                   Roof Masters was founded in 2008 with a simple mission: to provide Edmonton and surrounding areas with exceptional roofing services delivered with integrity, quality, and professionalism.
